@@ -1,0 +1,18 @@
+# Bytecode cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Django specific
+*.sqlite3
+
+# Environment variables
+.env
+
+# Media files
+/media
+
+# Static files (typically gathered from STATICFILES_DIRS)
+static/
