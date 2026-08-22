@@ -10,3 +10,6 @@ class CustomUser(AbstractUser):
     )
     user_type = models.CharField(max_length=10, choices=USER_TYPE_CHOICES)
     profile_pic = models.ImageField(upload_to='profile_pics/', blank=True, null=True)
+
+    def __str__(self):
+        return f"{self.username}"
